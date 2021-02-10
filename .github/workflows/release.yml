@@ -30,7 +30,7 @@ jobs:
       - name: Publish to NuGet
         uses: brandedoutcast/publish-nuget@v2
         with:
-          PROJECT_FILE_PATH: ${{PROJECT_NAME}}/${{PROJECT_NAME}}.csproj
+          PROJECT_FILE_PATH: FlintSoft.Extensions/FlintSoft.Extensions.csproj
           VERSION_REGEX: '^\s*<PackageVersion>(.*)<\/PackageVersion>\s*$'
           TAG_FORMAT: '*'
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
