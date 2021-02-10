@@ -5,12 +5,16 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlintSoft.Extensions", "FlintSoft.Extensions\FlintSoft.Extensions.csproj", "{8F150540-7946-4111-A8A1-42ADE0A159CD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{313A3570-2953-4591-A96E-1A5B2F4DF8BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{313A3570-2953-4591-A96E-1A5B2F4DF8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313A3570-2953-4591-A96E-1A5B2F4DF8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F150540-7946-4111-A8A1-42ADE0A159CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8F150540-7946-4111-A8A1-42ADE0A159CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F150540-7946-4111-A8A1-42ADE0A159CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
