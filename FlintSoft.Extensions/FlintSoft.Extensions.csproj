@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Michael Prattinger</Authors>
+    <Company>FlintSoft</Company>
+    <Copyright>(c) Michael Prattinger 2021</Copyright>
+    <RepositoryUrl>https://github.com/mprattinger/FlintSoft.Extensions</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 </Project>
