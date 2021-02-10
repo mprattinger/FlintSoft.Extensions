@@ -24,7 +24,7 @@ using static Nuke.Common.Tools.DotNet.DotNetTasks;
     OnPushBranches = new[] { "master" },
     OnPullRequestBranches = new[] { "master" },
     InvokedTargets = new[] { nameof(Push) },
-    ImportSecrets = new[] { "NUGET_API_URL", "NUGET_API_KEY" } )]
+    ImportSecrets = new[] { "NUGET_API_KEY" } )]
 class Build : NukeBuild
 {
     /// Support plugins are available for:
