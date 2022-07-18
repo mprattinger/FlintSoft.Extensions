@@ -67,7 +67,7 @@ namespace FlintSoft.Extensions
             int target = (int)dow;
             if (target <= start)
                 target += 7;
-            return from.AddDays(target - start);
+            return dt.AddDays(target - start);
         }
 
         public static string ToMonthView(this DateTime date, CultureInfo ci = null)
