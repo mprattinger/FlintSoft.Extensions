@@ -62,6 +62,14 @@ namespace FlintSoft.Extensions
             return dayOfMonth.FirstDayOfYear().AddYears(1).AddDays(-1);
         }
 
+        public static DateTime Next(this DateTime dt, DayOfWeek dow) {
+            int start = (int)dt.DayOfWeek;
+            int target = (int)dow;
+            if (target <= start)
+                target += 7;
+            return from.AddDays(target - start);
+        }
+
         public static string ToMonthView(this DateTime date, CultureInfo ci = null)
         {
             CultureInfo cultureInfo;
