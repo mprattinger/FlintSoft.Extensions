@@ -70,7 +70,7 @@ namespace FlintSoft.Extensions
             return dt.AddDays(target - start);
         }
 
-        public static string ToMonthView(this DateTime date, CultureInfo ci = null)
+        public static string ToMonthView(this DateTime date, CultureInfo? ci = null)
         {
             CultureInfo cultureInfo;
             if (ci == null) cultureInfo = new CultureInfo("de-AT");
